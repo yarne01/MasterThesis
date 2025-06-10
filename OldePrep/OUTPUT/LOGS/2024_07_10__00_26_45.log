@@ -1,0 +1,49 @@
+Created At "2024_07_10__00_26_45"
+
+
+
+
+
+----------------------------------[ Listing all Files ]-----------------------------------
+total 388K
+drwxr-xr-x  5 yarne yarne 4.0K Jul  9 23:35 ./
+drwxr-x--- 21 yarne yarne 320K Jul  9 22:07 ../
+drwxr-xr-x  2 yarne yarne 4.0K Jul  9 23:35 C/
+drwxr-xr-x  3 yarne yarne 4.0K Jul  9 19:32 LATEX/
+-rw-r--r--  1 yarne yarne 1.7K Jul 10 00:26 Meeting1.cpp
+drwxr-xr-x  5 yarne yarne 4.0K Jul 10 00:26 OUTPUT/
+-rwxr-xr-x  1 yarne yarne 6.0K Jul  9 23:35 run1.sh*
+-rw-r--r--  1 yarne yarne 5.4K Jul  9 19:02 test.cpp
+-rw-r--r--  1 yarne yarne  633 Jun 27 23:21 test.f90
+-rw-r--r--  1 yarne yarne 1.4K Jul  9 18:54 test.log
+-rw-r--r--  1 yarne yarne 2.4K Jun 20 00:02 test.py
+-rw-r--r--  1 yarne yarne 6.9K Jul  9 18:02 test.sty
+-rw-r--r--  1 yarne yarne  417 Jul  9 18:30 test.tex
+-rw-r--r--  1 yarne yarne  651 Jan 30  2023 vb_21.tex
+
+
+
+
+
+----------------------------------[ C part right here ]-----------------------------------
+Meeting1.cpp                                                                       Compile
+Meeting1.cpp:63:17: error: expected unqualified-id before ‘not’ token
+   63 |     vector<int> not(vector<int> c_in) {
+      |                 ^~~
+Meeting1.cpp: In function ‘int main()’:
+Meeting1.cpp:84:27: error: ‘class std::vector<int>’ has no member named ‘length’
+   84 |     for (int i = 0; i < c.length(); i++){
+      |                           ^~~~~~
+Meeting1.cpp:89:14: error: expected unqualified-id before ‘not’ token
+   89 |     c = lwe1.not(c);
+      |              ^~~
+Meeting1.cpp:91:27: error: ‘class std::vector<int>’ has no member named ‘length’
+   91 |     for (int i = 0; i < c.length(); i++){
+      |                           ^~~~~~
+
+
+
+
+
+------------------------------------[ Simulatie-tijd ]------------------------------------
+2024_07_10__00_26_45 -\> 2024_07_10__00_26_46:                                 00h 00m 01s

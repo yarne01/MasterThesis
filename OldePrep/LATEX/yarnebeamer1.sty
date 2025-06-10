@@ -1,0 +1,30 @@
+% Pretty sqrt
+    \let\oldsqrt\sqrt
+    \newcommand{\ClosedSqrt}[1][\hphantom{3}]{\def\DHLindex{#1}\mathpalette\DHLhksqrt}
+    \makeatletter
+        \newcommand*\bold@name{bold}
+        \def\DHLhksqrt#1#2{%
+            \setbox0=\hbox{$#1\oldsqrt{#2\,}$}\dimen0=\ht0\relax%
+            \advance\dimen0-0.2\ht0\relax% size of the added box is still 0.2 times ht0
+            \setbox2=\hbox{\vrule height\ht0 depth -\dimen0}%
+            {\hbox{$#1\expandafter\oldsqrt\expandafter[\DHLindex]{#2\,}$}
+            \lower\ifx\math@version\bold@name0.6pt\else0.4pt\fi\box2}
+        }
+        % root index positioning and added space at the end, mostly noticeable in inline math mode
+        \renewcommand*{\sqrt}[2][\ ]{\ClosedSqrt[\leftroot{-2}\uproot{1}#1]{#2}\kern0.1em} 
+    \makeatother
+
+
+\newcommand{\kleur}[2][red]{\textcolor{#1}{#2}}
+%  \newcommand{\link}[2]{\IfNoValueTF{#2}{\href{#1}{\texttt{#1}}}{\href{#1}{\texttt{#2}}}}
+\newcommand{\link}[1]{\href{#1}{\kleur[blue]{\texttt{#1}}}}
+\newcommand{\linknaam}[2]{\href{#1}{\kleur[blue]{\texttt{#2}}}}
+
+
+\newcommand{\limx}[2][x]{\lim\limits_{{#1}\to{#2}}}
+\newcommand{\limm}[1][m]{\limx[#1]{\infty}}
+
+\newcommand{\mat}[3][pmatrix]{\begin{#1} #2 \\ #3 \end{#1}}
+\newcommand{\imp}[2][\implies]{\mathrel{\overset{\mbox{\normalfont\tiny\sffamily #2}}{#1}}}
+
+\newcommand\myeq{\mathrel{\overset{\makebox[0pt]{\mbox{\normalfont\tiny\sffamily def}}}{=}}}

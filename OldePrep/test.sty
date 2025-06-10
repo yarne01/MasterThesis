@@ -1,0 +1,215 @@
+%%eigengemaakte package voor het begin van (ieder) document...
+%%eigengemaakte package voor het begin van (ieder) document...
+
+%taal en lettersoort
+    \usepackage[utf8]{inputenc}
+    \usepackage[english,dutch]{babel}
+    %\usepackage[T1]{fontenc}
+    \usepackage{datetime}
+    \usepackage{latexsym}
+
+%Niet zichtbaar
+    \usepackage{fullpage,enumitem,comment}
+
+%schoonheid
+    \usepackage{tikz,graphicx,xcolor,hyperref,soul,pifont,float}
+
+%wiskunde
+    \usepackage{nicefrac,xfrac,cancel}
+    \usepackage{amssymb,amsmath,mathtools}
+
+%andere soort files
+    \usepackage{standalone}
+    \IfFileExists{mcode.sty}{\usepackage[framed,autolinebreaks]{mcode}}
+    
+
+
+\setlength{\parindent}{0mm}
+\setlength{\mathindent}{10mm}
+
+\everymath{\displaystyle}
+
+
+%volgende zal sqrt aanpassen...
+    \let\oldsqrt\sqrt
+    \def\sqrt{\mathpalette\DHLhksqrt}
+    \def\DHLhksqrt#1#2{%
+    \setbox0=\hbox{$#1\oldsqrt{#2\,}$}\dimen0=\ht0
+    \advance\dimen0-0.2\ht0
+    \setbox2=\hbox{\vrule height\ht0 depth -\dimen0}%
+    {\box0\lower0.4pt\box2}}
+
+%Standaardwaarden, kan altijd aangepast worden in bestand
+    \author{Yarne Thijs}
+    % \date{\today}
+    \date{\today \hspace{1mm} Om \currenttime \hspace{1mm} GMT}
+
+
+%Her-definities.
+    \newcommand{\som}[1][i]{\sum\limits_{#1 = 1}^n}
+    \newcommand{\en}{\quad \land \quad}
+    \newcommand{\of}{\quad \lor  \quad}
+    \renewcommand{\le}{\leqslant}
+    \renewcommand{\ge}{\geqslant}
+    \newcommand{\limm}[1][m]{\lim_{{#1}\to\infty}}
+    \newcommand{\limx}[2][x]{\lim_{{#1}\to{#2}}}
+    \newcommand{\rij}[1][a]{\left({#1}_m\right)_{m \in \mathbb{N}}}
+    \newcommand{\inv}[2][1]{\nicefrac{#1}{#2}}
+    \newcommand{\integraal}[2]{\int\limits_{#1}^{#2}}
+    \newcommand{\imp}[2][\implies]{\substack{ #2 \\ #1 \\ \phantom{a}}}
+    %\newcommand{\imp}[2][\implies]{\DeclareMathOperator*{\temmp}{\implies}\temmp^{#2}}
+    
+    \newcommand{\mat}[3][pmatrix]{\begin{#1} #2 \\ #3 \end{#1}}
+    
+    \renewcommand{\epsilon}{\varepsilon}
+    \newcommand{\kleur}[2][red]{\textcolor{#1}{#2}}
+    \newcommand{\link}[1]{\kleur[blue]{\url{#1}}}
+    
+    \newcommand*{\rom}[1]{\expandafter\@slowromancap\romannumeral #1@}
+    \newcommand*\circled[1]{\tikz[baseline=(C.base)]\node[draw,circle,inner sep=1.2pt,line width=0.2mm,](C) {#1};}
+    
+    \newcommand{\file}[3][matlabfloz]{\subsection*{#2 \hfill \textbf{\texttt{\detokenize{#3}}}} \lstinputlisting[language=#1]{#3} \label{#3}}
+
+
+
+\DeclareMathOperator{\sinc}{sinc}
+\DeclareMathOperator*{\essssup}{ess\,sup}
+\DeclareMathOperator{\Log}{Log}
+\DeclareMathOperator{\diam}{diam}
+\DeclareMathOperator{\supp}{supp}
+
+
+% Topics specific:
+
+\usepackage{framed}
+
+\newcounter{rootlevel}
+\setcounter{rootlevel}{0}
+
+\newif\ifextra
+\extratrue
+
+\newcommand{\info}{green}
+\newcommand{\cantor}{\mathcal{C}}
+\renewcommand{\bar}{\overline}
+
+\newcommand{\nieuwpagina}{0}
+
+\newcommand{\files}[2]{\input{Topics in Analyse en topologie/#1_#2.tex}}
+
+
+\newcounter{bewijs}
+\newcounter{stelling}
+\newcounter{definitie}
+\newcounter{oefening}
+\newcounter{misc}
+\newcounter{voorbeeld}
+\newcounter{dagen}
+
+
+\setcounter{bewijs}{1}
+\setcounter{stelling}{1}
+\setcounter{definitie}{1}
+\setcounter{oefening}{1}
+\setcounter{misc}{1}
+\setcounter{voorbeeld}{1}
+\setcounter{dagen}{0}
+
+\newcommand{\nieuwbew}[1][{\thebewijs}]{\setcounter{section}{#1-1+\thestelling-1}\renewcommand{\thesection}{\Roman{section}}\files{Bewijzen/bew}{#1} \setcounter{bewijs}{#1+1} }
+\newcommand{\nieuwstel}[1][{\thestelling}]{\setcounter{section}{#1-1+\thebewijs-1}\renewcommand{\thesection}{\Roman{section}}\files{Stelling/stel}{#1} \setcounter{stelling}{#1+1} }
+\newcommand{\nieuwdef}[1][{\thedefinitie}]{\setcounter{section}{#1-1}\renewcommand{\thesection}{\Alph{section}}\files{Definities/def}{#1} \setcounter{definitie}{#1+1} }
+%^\newcommand{\nieuwoef}[1][{\theoefening}]{\setcounter{section}{#1-1}\renewcommand{\thesection}{\arabic{section}}\files{Extra/oef}{#1} \setcounter{oefening}{#1+1} }
+\newcommand{\nieuwmisc}[1][{\themisc}]{\setcounter{section}{#1-1}\renewcommand{\thesection}{\alph{section}}\files{Misc/misc}{#1} \setcounter{misc}{#1+1} }
+\newcommand{\nieuwvb}[1][{\thevoorbeeld}]{\setcounter{section}{#1-1}\renewcommand{\thesection}{\roman{section}}\files{Voorbeeld/vb}{#1} \setcounter{voorbeeld}{#1+1} }
+\newcommand{\nieuwdag}[2][{\thedagen}]{\setcounter{dagen}{#1+1}\part{Dag #1, #2/2022} \files{Dagen/dag}{#1} }
+\newcommand{\nieuwoef}[1][{\theoefening}]{\setcounter{section}{#1-1}\renewcommand{\thesection}{\arabic{section}}\files{Extra/oef}{#1} \setcounter{oefening}{#1+1} }
+
+
+
+
+
+\DeclareMathOperator{\triin}{\triangle_{\text{int}}}
+\DeclareMathOperator{\triex}{\triangle_{\text{ext}}}
+
+\DeclareMathOperator{\ldim}{\underline{\dim}}
+\DeclareMathOperator*{\llim}{\underline{\lim}}
+\DeclareMathOperator{\ltri}{\underline{\triangle}}
+\DeclareMathOperator{\ltriin}{\underline{\triangle}_{\text{int}}}
+\DeclareMathOperator{\ltriex}{\underline{\triangle}_{\text{ext}}}
+
+\DeclareMathOperator{\udim}{\overline{\dim}}
+\DeclareMathOperator*{\ulim}{\kleur[white]{\underline{\kleur[black]{\overline{\lim}}}}}
+\DeclareMathOperator{\utri}{\overline{\triangle}}
+\DeclareMathOperator{\utriin}{\overline{\triangle}_{\text{int}}}
+\DeclareMathOperator{\utriex}{\overline{\triangle}_{\text{ext}}}
+
+\DeclareMathOperator{\ludim}{\kleur[cyan]{\overline{\kleur[black]{\underline{\dim}}}}}
+\DeclareMathOperator*{\lulim}{\kleur[cyan]{\overline{\kleur[black]{\underline{\lim}}}}}
+\DeclareMathOperator*{\lutri}{\kleur[cyan]{\overline{\kleur[black]{\underline{\triangle}}}}}
+\DeclareMathOperator*{\lutriin}{\kleur[cyan]{\overline{\kleur[black]{\underline{\triangle}}}}_{\text{int}}}
+\DeclareMathOperator*{\lutriex}{\kleur[cyan]{\overline{\kleur[black]{\underline{\triangle}}}}_{\text{ext}}}
+
+
+\DeclareMathOperator{\uldim}{\overline{\kleur[cyan]{\underline{\kleur[black]{\dim}}}}}
+\DeclareMathOperator*{\ullim}{\overline{\kleur[cyan]{\underline{\kleur[black]{\lim}}}}}
+\DeclareMathOperator{\ultri}{\overline{\kleur[cyan]{\underline{\kleur[black]{\triangle}}}}}
+\DeclareMathOperator{\ultriin}{\overline{\kleur[cyan]{\underline{\kleur[black]{\triangle}}}}_{\text{int}}}
+\DeclareMathOperator{\ultriex}{\overline{\kleur[cyan]{\underline{\kleur[black]{\triangle}}}}_{\text{ext}}}
+
+\newcommand{\llimm}[1][m]{\llim_{{#1}\to\infty}}
+\newcommand{\llimx}[2][x]{\llim_{{#1}\to{#2}}}
+
+\newcommand{\ulimm}[1][m]{\ulim_{{#1}\to\infty}}
+\newcommand{\ulimx}[2][x]{\ulim_{{#1}\to{#2}}}
+
+
+\newcommand{\lulimm}[1][m]{\lulim_{{#1}\to\infty}}
+\newcommand{\lulimx}[2][x]{\lulim_{{#1}\to{#2}}}
+
+
+\newcommand{\ullimm}[1][m]{\ullim_{{#1}\to\infty}}
+\newcommand{\ullimx}[2][x]{\ullim_{{#1}\to{#2}}}
+
+
+
+
+%grappig: recusie met \textbf{$\text{meethod_analeysr}$}
+
+\DeclarePairedDelimiter{\verzameling}{\{}{\}}
+\begin{comment}
+
+
+
+
+
+
+
+
+
+
+
+
+
+\documentclass[11pt,a4paper,fleqn]{article}
+\usepackage{begin}
+
+\title{}
+\begin{document}
+\maketitle
+
+
+
+
+
+\end{document}
+
+
+
+
+
+
+
+
+
+
+\end{comment}

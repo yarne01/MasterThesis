@@ -1,0 +1,3 @@
+\beamer@sectionintoc {1}{Begin}{2}{0}{1}
+\beamer@sectionintoc {2}{The Abel prize}{5}{0}{2}
+\beamer@sectionintoc {3}{Introducing the Research}{7}{0}{3}

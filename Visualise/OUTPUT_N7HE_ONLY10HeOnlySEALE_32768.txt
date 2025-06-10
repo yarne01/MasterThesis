@@ -1,0 +1,80 @@
+Type of the Template: HE_ONLY_32768: N7HE_ONLY10HeOnlySEALE
+Ram before anything: 2012 kB
+
+Size: 7404788 Bytes
+DO: 21328
+S1: 4587
+S2: 2422
+DC: 19
+Memory: 4183076 kb
+
+Ram After analysis run: 4146512 kB
+
+
+Begin with DO and time
+
+Do amount: 10
+DO: 105787
+DO: 106623
+DO: 107625
+DO: 105611
+DO: 106855
+Size: 7404994 Bytes
+S1: 36115
+S2: 23344
+DC: 20
+Memory: 5582932 kb
+Size: 7404937 Bytes
+S1: 36143
+S2: 23058
+DC: 19
+Memory: 5597452 kb
+Size: 7404976 Bytes
+S1: 35800
+S2: 23036
+DC: 18
+Memory: 5589872 kb
+Size: 7405126 Bytes
+S1: 36035
+S2: 23024
+DC: 19
+Memory: 5589872 kb
+Size: 7405150 Bytes
+S1: 36645
+S2: 22682
+DC: 17
+Memory: 5589872 kb
+Average time: 69249
+
+Do amount: 100
+DO: 968590
+DO: 969499
+DO: 974549
+DO: 980912
+DO: 969601
+Size: 7404896 Bytes
+S1: 347113
+S2: 222075
+DC: 19
+Memory: 19413968 kb
+Size: 7404968 Bytes
+S1: 341368
+S2: 222954
+DC: 18
+Memory: 19413968 kb
+Size: 7404812 Bytes
+S1: 342319
+S2: 222767
+DC: 18
+Memory: 19413968 kb
+Size: 7404755 Bytes
+S1: 343776
+S2: 223631
+DC: 18
+Memory: 19413968 kb
+Size: 7405066 Bytes
+S1: 342542
+S2: 222593
+DC: 18
+Memory: 19413968 kb
+Average time: 576225

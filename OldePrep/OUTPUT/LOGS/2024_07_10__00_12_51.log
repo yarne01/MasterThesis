@@ -1,0 +1,47 @@
+Created At "2024_07_10__00_12_51"
+
+
+
+
+
+----------------------------------[ Listing all Files ]-----------------------------------
+total 388K
+drwxr-xr-x  5 yarne yarne 4.0K Jul  9 23:35 ./
+drwxr-x--- 21 yarne yarne 320K Jul  9 22:07 ../
+drwxr-xr-x  2 yarne yarne 4.0K Jul  9 23:35 C/
+drwxr-xr-x  3 yarne yarne 4.0K Jul  9 19:32 LATEX/
+-rw-r--r--  1 yarne yarne 1.3K Jul 10 00:12 Meeting1.cpp
+drwxr-xr-x  5 yarne yarne 4.0K Jul 10 00:12 OUTPUT/
+-rwxr-xr-x  1 yarne yarne 6.0K Jul  9 23:35 run1.sh*
+-rw-r--r--  1 yarne yarne 5.4K Jul  9 19:02 test.cpp
+-rw-r--r--  1 yarne yarne  633 Jun 27 23:21 test.f90
+-rw-r--r--  1 yarne yarne 1.4K Jul  9 18:54 test.log
+-rw-r--r--  1 yarne yarne 2.4K Jun 20 00:02 test.py
+-rw-r--r--  1 yarne yarne 6.9K Jul  9 18:02 test.sty
+-rw-r--r--  1 yarne yarne  417 Jul  9 18:30 test.tex
+-rw-r--r--  1 yarne yarne  651 Jan 30  2023 vb_21.tex
+
+
+
+
+
+----------------------------------[ C part right here ]-----------------------------------
+Meeting1.cpp                                                                       Compile
+Meeting1.cpp: In member function ‘int* LWE::encrypt(int)’:
+Meeting1.cpp:61:16: warning: address of local variable ‘c’ returned [-Wreturn-local-addr]
+   61 |         return c;
+      |                ^
+Meeting1.cpp:53:13: note: declared here
+   53 |         int c[n+1];
+      |             ^
+Meeting1.cpp: In function ‘int main()’:
+Meeting1.cpp:74:25: error: ‘n’ was not declared in this scope
+   74 |     for (int i = 0; i < n; i++){
+      |                         ^
+
+
+
+
+
+------------------------------------[ Simulatie-tijd ]------------------------------------
+2024_07_10__00_12_51 -\> 2024_07_10__00_12_51:                                 00h 00m 00s

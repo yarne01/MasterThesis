@@ -1,0 +1,42 @@
+Time Step 1: 0.02408742904663086
+The CKKS scheme is using ring dimension: 16384
+Time Step 2: 0.09161853790283203
+Input x1: (0.25, 0.5, 0.75, 1, 2, 3, 4, 5,  ... ); Estimated precision: 50 bits
+
+Input x2: (5, 4, 3, 2, 1, 0.75, 0.5, 0.25,  ... ); Estimated precision: 50 bits
+
+Time Step 3: 0.01788806915283203
+Time Step 4: 0.04386138916015625
+
+Results of homomorphic additions:
+(5.25, 4.5, 3.75, 3, 3, 3.75, 4.5, 5.25,  ... ); Estimated precision: 43 bits
+
+
+Results of homomorphic computations:
+x1 = (0.25, 0.5, 0.75, 1, 2, 3, 4, 5, ... ); Estimated precision: 43 bits
+4 * x1 = (1, 2, 3, 4, 8, 12, 16, 20, ... ); Estimated precision: 42 bits
+x1 * x2 = (1.25, 2, 2.25, 2, 2, 2.25, 2, 1.25, ... ); Estimated precision: 42 bits
+
+In rotations, very small outputs (~10^-10 here) correspond to 0's:
+x1 rotated by 1 = (0.5, 0.75, 1, 2, 3, 4, 5, 0.25, ... ); Estimated precision: 43 bits
+x1 rotated by -2 = (4, 5, 0.25, 0.5, 0.75, 1, 2, 3, ... ); Estimated precision: 43 bits
+Time Step 5: 0.04108238220214844
+
+
+
+
+
+
+Now we can also do the average calculation on the 'cloud'/untrusted computer
+Lets take 5 datapoints and average them. Lets pick some number between 0 (inclusive) and 10(Exclusive)
+[<Plaintext Object: (1.91599, 3.92043, 3.48213, 0.475975, 0.1402, 0.40403, 1.77576, 5.25959,  ... ); Estimated precision: 50 bits
+>, <Plaintext Object: (8.8743, 5.44544, 6.73085, 4.4905, 8.45801, 0.532928, 4.83117, 5.67439,  ... ); Estimated precision: 50 bits
+>, <Plaintext Object: (4.90963, 3.30767, 5.35545, 2.72705, 3.0996, 0.13055, 2.79862, 9.14198,  ... ); Estimated precision: 50 bits
+>, <Plaintext Object: (1.42992, 2.7386, 9.64762, 4.94908, 8.60438, 2.98651, 5.79488, 1.53517,  ... ); Estimated precision: 50 bits
+>, <Plaintext Object: (8.06298, 0.165959, 0.240142, 9.24337, 9.15711, 3.4651, 1.99089, 8.89122,  ... ); Estimated precision: 50 bits
+>]
+Sum: (25.19282, 15.578094, 25.456187, 21.885978, 29.4593, 7.5191159, 17.191329, 30.502354, ... ); Estimated precision: 43 bits
+average: (5.038564, 3.1156188, 5.0912374, 4.3771956, 5.8918599, 1.5038232, 3.4382659, 6.1004708, ... ); Estimated precision: 43 bits
+Direct calc: [5.038564028725294, 3.115618762475699, 5.0912374235547615, 4.377195598729555, 5.8918599223975106, 1.5038231823758395, 3.4382658604295626, 6.100470813412753]
+sum: 3.539391002504999e-13, difference: [-2.398081733190338e-14, 7.061018436615996e-14, -4.529709940470639e-14, -6.217248937900877e-14, 6.306066779870889e-14, 6.17284001691587e-14, 1.554312234475219e-14, 1.1546319456101628e-14]
+Time Step: 0.06995034217834473

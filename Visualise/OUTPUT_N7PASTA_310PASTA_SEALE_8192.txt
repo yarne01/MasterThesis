@@ -1,0 +1,212 @@
+Type of the Template: PASTA_3_8192: N7PASTA_310PASTA_SEALE
+Ram before anything: 1956 kB
+
+DO: 361
+Size: 432495 Bytes
+S1: 3064
+S2: 84
+DC: 1
+Memory: 92952 kb
+
+Ram After analysis run: 90284 kB
+
+
+Begin with DO and time
+
+Do amount: 10
+DO: 1699
+Size: 432447 Bytes
+S1: 16818
+S2: 815
+DC: 1
+Memory: 97408 kb
+DO: 1710
+Size: 432409 Bytes
+S1: 16828
+S2: 816
+DC: 1
+Memory: 98088 kb
+DO: 1699
+Size: 432595 Bytes
+S1: 16820
+S2: 816
+DC: 1
+Memory: 98616 kb
+DO: 1700
+Size: 432466 Bytes
+S1: 16800
+S2: 814
+DC: 1
+Memory: 98240 kb
+DO: 1689
+Size: 432460 Bytes
+S1: 16813
+S2: 813
+DC: 1
+Memory: 99296 kb
+Average time: 17823
+
+Do amount: 100
+DO: 15506
+Size: 432402 Bytes
+S1: 154461
+S2: 8026
+DC: 1
+Memory: 146024 kb
+DO: 15499
+Size: 432553 Bytes
+S1: 152273
+S2: 8037
+DC: 1
+Memory: 146024 kb
+DO: 15501
+Size: 432555 Bytes
+S1: 152337
+S2: 8038
+DC: 1
+Memory: 145000 kb
+DO: 15500
+Size: 432309 Bytes
+S1: 152491
+S2: 8016
+DC: 1
+Memory: 146056 kb
+DO: 15500
+Size: 432443 Bytes
+S1: 152339
+S2: 7990
+DC: 1
+Memory: 145000 kb
+Average time: 161306
+
+Do amount: 200
+DO: 30840
+Size: 432460 Bytes
+S1: 302768
+S2: 15992
+DC: 1
+Memory: 197272 kb
+DO: 30841
+Size: 432460 Bytes
+S1: 302711
+S2: 16037
+DC: 1
+Memory: 197272 kb
+DO: 30845
+Size: 432486 Bytes
+S1: 303006
+S2: 16044
+DC: 1
+Memory: 197800 kb
+DO: 30639
+Size: 432580 Bytes
+S1: 303031
+S2: 15944
+DC: 1
+Memory: 197800 kb
+DO: 31043
+Size: 432500 Bytes
+S1: 303061
+S2: 16051
+DC: 1
+Memory: 196340 kb
+Average time: 319774
+
+Do amount: 300
+DO: 46791
+Size: 432431 Bytes
+S1: 454134
+S2: 24010
+DC: 1
+Memory: 248612 kb
+DO: 45890
+Size: 432307 Bytes
+S1: 453800
+S2: 23896
+DC: 1
+Memory: 248876 kb
+DO: 46480
+Size: 432269 Bytes
+S1: 453198
+S2: 24028
+DC: 1
+Memory: 248876 kb
+DO: 45583
+Size: 432398 Bytes
+S1: 456423
+S2: 24123
+DC: 1
+Memory: 248876 kb
+DO: 47092
+Size: 432373 Bytes
+S1: 456584
+S2: 24160
+DC: 1
+Memory: 248876 kb
+Average time: 480061
+
+Do amount: 400
+DO: 63140
+Size: 432454 Bytes
+S1: 607421
+S2: 32022
+DC: 1
+Memory: 300092 kb
+DO: 61933
+Size: 432539 Bytes
+S1: 603834
+S2: 32041
+DC: 1
+Memory: 298920 kb
+DO: 61521
+Size: 432454 Bytes
+S1: 604203
+S2: 31976
+DC: 1
+Memory: 299448 kb
+DO: 61528
+Size: 432443 Bytes
+S1: 604975
+S2: 32011
+DC: 1
+Memory: 299976 kb
+DO: 61530
+Size: 432436 Bytes
+S1: 605575
+S2: 32123
+DC: 1
+Memory: 299976 kb
+Average time: 638770
+
+Do amount: 500
+DO: 76874
+Size: 432491 Bytes
+S1: 756725
+S2: 39955
+DC: 1
+Memory: 351984 kb
+DO: 76379
+Size: 432467 Bytes
+S1: 755068
+S2: 39920
+DC: 1
+Memory: 350620 kb
+DO: 77380
+Size: 432481 Bytes
+S1: 756716
+S2: 40158
+DC: 1
+Memory: 351676 kb
+DO: 76878
+Size: 432566 Bytes
+S1: 736456
+S2: 38523
+DC: 1
+Memory: 350620 kb
+DO: 75322
+Size: 432528 Bytes
+S1: 732924
+S2: 38579
+DC: 1
+Memory: 351676 kb
+Average time: 788875

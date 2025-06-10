@@ -1,0 +1,39 @@
+Created At "2024_07_09__18_57_43"
+
+
+
+
+
+----------------------------------[ Listing all Files ]-----------------------------------
+total 456K
+drwxr-xr-x  4 yarne yarne 4.0K Jul  9 18:54 ./
+drwxr-x--- 21 yarne yarne 320K Jul  9 18:23 ../
+drwxr-xr-x  6 yarne yarne 4.0K Jul  9 18:53 OUTPUT/
+-rwxr-xr-x  1 yarne yarne  16K Jun 27 22:08 hello*
+drwxr-xr-x  5 yarne yarne 4.0K Jun 17 14:34 hello-rust/
+-rwxr-xr-x  1 yarne yarne  53K Jun 27 23:23 penmp*
+-rwxr-xr-x  1 yarne yarne 5.6K Jul  9 18:57 run1.sh*
+-rw-r--r--  1 yarne yarne 5.4K Jul  9 16:37 test.cpp
+-rw-r--r--  1 yarne yarne  633 Jun 27 23:21 test.f90
+-rw-r--r--  1 yarne yarne 1.4K Jul  9 18:54 test.log
+-rw-r--r--  1 yarne yarne 2.4K Jun 20 00:02 test.py
+-rw-r--r--  1 yarne yarne 6.9K Jul  9 18:02 test.sty
+-rw-r--r--  1 yarne yarne  417 Jul  9 18:30 test.tex
+-rw-r--r--  1 yarne yarne  844 Jul  9 18:14 texput.log
+-rw-r--r--  1 yarne yarne  651 Jan 30  2023 vb_21.tex
+
+
+
+
+
+-------------------------------[ Fortran part right here ]--------------------------------
+test.f90                                                                           Compile
+test.f90                                                                               Run
+ Total Sum:    984501026
+
+
+
+
+
+------------------------------------[ Simulatie-tijd ]------------------------------------
+2024_07_09__18_57_43 -\> 2024_07_09__18_57_44:                                 00h 00m 01s

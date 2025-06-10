@@ -1,0 +1,48 @@
+Created At "2024_07_09__19_25_54"
+
+
+
+
+
+----------------------------------[ Listing all Files ]-----------------------------------
+total 380K
+drwxr-xr-x  4 yarne yarne 4.0K Jul  9 19:05 ./
+drwxr-x--- 21 yarne yarne 320K Jul  9 18:23 ../
+drwxr-xr-x  4 yarne yarne 4.0K Jul  9 19:21 LATEX/
+drwxr-xr-x  5 yarne yarne 4.0K Jul  9 19:25 OUTPUT/
+-rwxr-xr-x  1 yarne yarne 5.8K Jul  9 19:25 run1.sh*
+-rw-r--r--  1 yarne yarne 5.4K Jul  9 19:02 test.cpp
+-rw-r--r--  1 yarne yarne  633 Jun 27 23:21 test.f90
+-rw-r--r--  1 yarne yarne 1.4K Jul  9 18:54 test.log
+-rw-r--r--  1 yarne yarne 2.4K Jun 20 00:02 test.py
+-rw-r--r--  1 yarne yarne 6.9K Jul  9 18:02 test.sty
+-rw-r--r--  1 yarne yarne  417 Jul  9 18:30 test.tex
+-rw-r--r--  1 yarne yarne  651 Jan 30  2023 vb_21.tex
+
+
+
+
+
+-----------------------------------[ Compiling LaTeX ]------------------------------------
+This is LuaHBTeX, Version 1.14.0 (TeX Live 2022/dev/Debian) 
+ restricted system commands enabled.
+! I can't find file `LATEX/test/test.tex'.
+<*> LATEX/test/test.tex
+                    
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name
+! Emergency stop.
+<*> LATEX/test/test.tex
+                    
+ 270 words of node memory still in use:
+   1 hlist, 39 glue_spec nodes
+   avail lists: 2:12,3:1,4:1,5:1
+!  ==> Fatal error occurred, no output PDF file produced!
+Transcript written on texput.log.
+
+
+
+
+
+------------------------------------[ Simulatie-tijd ]------------------------------------
+2024_07_09__19_25_54 -\> 2024_07_09__19_25_54:                                 00h 00m 00s

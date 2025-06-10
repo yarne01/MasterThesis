@@ -1,0 +1,83 @@
+Created At "2024_07_09__18_59_53"
+
+
+
+
+
+----------------------------------[ Listing all Files ]-----------------------------------
+total 456K
+drwxr-xr-x  4 yarne yarne 4.0K Jul  9 18:54 ./
+drwxr-x--- 21 yarne yarne 320K Jul  9 18:23 ../
+drwxr-xr-x  6 yarne yarne 4.0K Jul  9 18:59 OUTPUT/
+-rwxr-xr-x  1 yarne yarne  16K Jun 27 22:08 hello*
+drwxr-xr-x  5 yarne yarne 4.0K Jun 17 14:34 hello-rust/
+-rwxr-xr-x  1 yarne yarne  53K Jun 27 23:23 penmp*
+-rwxr-xr-x  1 yarne yarne 5.6K Jul  9 18:59 run1.sh*
+-rw-r--r--  1 yarne yarne 5.4K Jul  9 18:59 test.cpp
+-rw-r--r--  1 yarne yarne  633 Jun 27 23:21 test.f90
+-rw-r--r--  1 yarne yarne 1.4K Jul  9 18:54 test.log
+-rw-r--r--  1 yarne yarne 2.4K Jun 20 00:02 test.py
+-rw-r--r--  1 yarne yarne 6.9K Jul  9 18:02 test.sty
+-rw-r--r--  1 yarne yarne  417 Jul  9 18:30 test.tex
+-rw-r--r--  1 yarne yarne  844 Jul  9 18:14 texput.log
+-rw-r--r--  1 yarne yarne  651 Jan 30  2023 vb_21.tex
+
+
+
+
+
+----------------------------------[ C part right here ]-----------------------------------
+test.cpp                                                                           Compile
+test.cpp                                                                               Run
+p,q: 103,41
+n,phi: 4223,4080
+g,lambda,mu: 4224, 4080,945
+
+c,m:          1341978,                0               0
+c,m:         12525005,                1               1
+c,m:          8457428,                2               2
+c,m:          4638009,                3               3
+c,m:         13473081,                4               4
+c,m:         13736291,                5               5
+c,m:          4823621,                6               6
+c,m:          5144463,                7               7
+c,m:         15814616,                8               8
+c,m:          6790683,                9               9
+c,m:         14797651,               10              10
+c,m:         16835313,               11              11
+c,m:         16940180,               12              12
+c,m:         13370669,               13              13
+c,m:         12359660,               14              14
+c,m:          2211337,               15              15
+c,m:          9474642,               16              16
+c,m:          7436173,               17              17
+c,m:          6158780,               18              18
+c,m:          7765901,               19              19
+c,m:           658169,               20              20
+c,m:          6253933,               21              21
+c,m:          7675675,               22              22
+c,m:          3983693,               23              23
+c,m:          9259240,               24              24
+c,m:          6404669,               25              25
+c,m:          9281229,               26              26
+c,m:         10529740,               27              27
+c,m:         14290282,               28              28
+c,m:             1915,               29              29
+c,m:          6955734,               30              30
+c,m:          5110236,               31              31
+
+
+
+
+
+-------------------------------[ Fortran part right here ]--------------------------------
+test.f90                                                                           Compile
+test.f90                                                                               Run
+ Total Sum:    984501026
+
+
+
+
+
+------------------------------------[ Simulatie-tijd ]------------------------------------
+2024_07_09__18_59_53 -\> 2024_07_09__18_59_54:                                 00h 00m 01s

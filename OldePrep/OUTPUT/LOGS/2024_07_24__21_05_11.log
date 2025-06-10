@@ -1,0 +1,48 @@
+Created At "2024_07_24__21_05_11"
+
+
+
+
+
+----------------------------------[ Listing all Files ]-----------------------------------
+total 388K
+drwxr-xr-x  5 yarne yarne 4.0K Jul 24 20:53 ./
+drwxr-x--- 21 yarne yarne 320K Jul 10 01:58 ../
+drwxr-xr-x  3 yarne yarne 4.0K Jul 24 20:48 C/
+drwxr-xr-x  3 yarne yarne 4.0K Jul  9 19:32 LATEX/
+-rw-r--r--  1 yarne yarne 1.7K Jul 10 00:31 Meeting1.cpp
+drwxr-xr-x  5 yarne yarne 4.0K Jul 24 21:05 OUTPUT/
+-rwxr-xr-x  1 yarne yarne 6.0K Jul 24 20:55 run1.sh*
+-rw-r--r--  1 yarne yarne 6.3K Jul 24 21:05 test.cpp
+-rw-r--r--  1 yarne yarne  633 Jun 27 23:21 test.f90
+-rw-r--r--  1 yarne yarne 1.4K Jul  9 18:54 test.log
+-rw-r--r--  1 yarne yarne 2.4K Jun 20 00:02 test.py
+-rw-r--r--  1 yarne yarne 6.9K Jul  9 18:02 test.sty
+-rw-r--r--  1 yarne yarne  417 Jul  9 18:30 test.tex
+-rw-r--r--  1 yarne yarne  651 Jan 30  2023 vb_21.tex
+
+
+
+
+
+----------------------------------[ C part right here ]-----------------------------------
+test.cpp                                                                           Compile
+test.cpp                                                                               Run
+1AAAA
+AAAA
+
+
+
+
+
+Meeting1.cpp                                                                       Compile
+Meeting1.cpp                                                                           Run
+359, 105, 81, 74, 809, 927753873, 
+-359, -105, -81, -74, -809, -927753869, 
+
+
+
+
+
+------------------------------------[ Simulatie-tijd ]------------------------------------
+2024_07_24__21_05_11 -\> 2024_07_24__21_05_16:                                 00h 00m 05s

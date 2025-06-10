@@ -1,0 +1,84 @@
+Type of the Template: N8PASTA2_311PASTA2_SEALE
+Ram before anything: 1992 kB
+
+DO: 6863
+Size: 7405151 Bytes
+S1: 66681
+S2: 2246
+DC: 20
+Memory: 2447440 kb
+
+Ram After analysis run: 2410948 kB
+
+
+Begin with DO and time
+
+Do amount: 10
+DO: 6200
+Size: 7404550 Bytes
+S1: 360463
+S2: 21753
+DC: 21
+Memory: 2512200 kb
+time: 388442
+,DO: 6179
+Size: 7404718 Bytes
+S1: 360950
+S2: 22030
+DC: 18
+Memory: 2535148 kb
+time: 389185
+,DO: 6298
+Size: 7404883 Bytes
+S1: 361838
+S2: 21874
+DC: 18
+Memory: 2516448 kb
+time: 390037
+,DO: 6211
+Size: 7405003 Bytes
+S1: 361449
+S2: 21828
+DC: 20
+Memory: 2520392 kb
+time: 389513
+,DO: 6200
+Size: 7405084 Bytes
+S1: 361074
+S2: 21753
+DC: 18
+Memory: 2520544 kb
+time: 389051
+
+Average time: 389246
+
+Do amount: 100
+DO: 6322
+Size: 7405109 Bytes
+S1: 3236942
+S2: 210273
+DC: 20
+Memory: 3211624 kb
+time: 3453564
+,DO: 6181
+Size: 7405086 Bytes
+S1: 3227781
+S2: 210666
+DC: 21
+Memory: 3207680 kb
+time: 3444656
+,DO: 6142
+Size: 7404690 Bytes
+S1: 3223029
+S2: 210252
+DC: 20
+Memory: 3207528 kb
+time: 3439449
+,DO: 6172
+Size: 7404947 Bytes
+S1: 3230436
+S2: 211766
+DC: 22
+Memory: 3207528 kb
+time: 3448403
+,DO: 6169
