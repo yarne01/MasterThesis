@@ -1,0 +1,31 @@
+Type of the Template: N8PASTA2_311PASTA2_SEALE
+Ram before anything: 2016 kB
+
+DO: 8454
+Size: 7405040 Bytes
+S1: 66176
+S2: 2153
+DC: 17
+
+Ram After analysis run: 2417644 kB
+
+
+Begin with DO and time
+
+Do amount: 10
+DO: 6119
+Size: 7405222 Bytes
+S1: 352831
+S2: 20689
+DC: 17
+379666
+Average time: 379666
+
+Do amount: 100
+DO: 6220
+Size: 7405393 Bytes
+S1: 4929701
+S2: 388920
+DC: 47
+5325250
+Average time: 5.32525e+06

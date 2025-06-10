@@ -1,0 +1,14 @@
+Type of the Template: N8PASTA2_311PASTA2_SEALE
+Ram before anything: 1988 kB
+
+DO: 21438
+Size2: 47 Bytes
+Size: 7405020 Bytes
+S1: 71687
+S2: 2335
+DC: 18
+Memory: 2444756 kb
+
+Ram After analysis run: 2408200 kB
+
+

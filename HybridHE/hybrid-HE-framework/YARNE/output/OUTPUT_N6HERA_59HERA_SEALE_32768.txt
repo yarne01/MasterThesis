@@ -1,0 +1,14 @@
+Type of the Template: N6HERA_59HERA_SEALE
+Ram before anything: 1988 kB
+
+DO: 8154
+Size2: 47 Bytes
+Size: 7404704 Bytes
+S1: 54059
+S2: 2507
+DC: 16
+Memory: 1629704 kb
+
+Ram After analysis run: 1593104 kB
+
+

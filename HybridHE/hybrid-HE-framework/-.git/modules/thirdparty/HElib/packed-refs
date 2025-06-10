@@ -1,0 +1,24 @@
+# pack-refs with: peeled fully-peeled sorted 
+2ab811d6b32bf835787574191b377c5ddc3e3571 refs/remotes/origin/CodeQL
+be9d3785e6851627adffc7c4b2111a07df40fe5b refs/remotes/origin/aes
+9818ea4d6dd623fb60c3c8ec2b8ce0ea04ba29ba refs/remotes/origin/gh-pages
+3e337a66a91a92d49de6a9505340826b0eb71081 refs/remotes/origin/master
+80887c02a6c75b139cec20cbfb86741009457513 refs/tags/1.0.0-beta0-Jan2019
+^e1edb4d6088a4103fc5b739b6e89e644627fea9f
+98cda6962642b1e31a73504647b92f0a10c2c8fd refs/tags/1.0.0-beta1-Aug2019
+^c74ffabeffa6ab6dc804bb1e1cddde42723efc64
+cd267e2ddc6e92886b89f3aa51c416d5c1d2dc59 refs/tags/1.0.0-beta2-Nov2019
+072ffc8af2662876c445ad5ae8614ca65f20c10b refs/tags/v1.0.0
+5f97813b99407d6f9a6251cee920b4e419edc028 refs/tags/v1.0.1
+507ceff756a7f020302faef8ce08b6964ed51c08 refs/tags/v1.0.2
+0b33851965e8dffbb333e8b48639d32e25fd60d5 refs/tags/v1.1.0
+c9ac9c94811ec746d70f34d851bde303753452d8 refs/tags/v1.1.0-beta.0
+f8230cd149efe03b96056aaadc41d88f31dd5a30 refs/tags/v1.2.0
+d50e70173910ff5a7bfa1e5bcb5ccf10b3c49744 refs/tags/v1.3.0
+060d36d4f0b125002ddb51ff9594c930382b3232 refs/tags/v1.3.1
+2e408fa7787f018d9d741c0cd3a6ea92fbbf47d7 refs/tags/v2.0.0
+39fde878ee5ed79245d8ecc8f56e252280768b5c refs/tags/v2.1.0
+ca470ebc51748ba7be63dac0512610f8b1f20015 refs/tags/v2.2.0
+f0e3e010009c592cd411ba96baa8376eb485247a refs/tags/v2.2.1
+d7be6f0dca6fa6cad2b2a0923d024ac27ce2e445 refs/tags/v2.2.2
+3e337a66a91a92d49de6a9505340826b0eb71081 refs/tags/v2.3.0

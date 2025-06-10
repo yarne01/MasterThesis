@@ -1,0 +1,25 @@
+Type of the Template: N7HE_ONLY10HeOnlySEALE
+Ram before anything: 1996 kB
+
+DO: 1808
+Size: 432436 Bytes
+S1: 1985
+S2: 667
+DC: 1
+
+Ram After analysis run: 803908 kB
+
+
+Begin with DO and time
+
+Do amount: 10
+DO: 1778
+Size: 432443 Bytes
+S1: 12557
+S2: 4853
+DC: 1
+19191
+Average time: 19191
+
+Do amount: 100
+DO: 1711

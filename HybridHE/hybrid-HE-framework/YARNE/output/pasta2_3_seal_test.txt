@@ -1,0 +1,39 @@
+pasta2_3_seal_test Begonnen!
+Runtime Size: 1992 kB = 0.00189972 gB (Begin main)
+Test 0
+Runtime Size: 1992 kB = 0.00189972 gB (Before run)
+Testcase not found... 
+Runtime Size: 1992 kB = 0.00189972 gB (After Run)
+
+Test 1
+Runtime Size: 1992 kB = 0.00189972 gB (Before run)
+Testcase not found... 
+Runtime Size: 1992 kB = 0.00189972 gB (After Run)
+
+Test 2
+Runtime Size: 1992 kB = 0.00189972 gB (Before run)
+Testcase not found... 
+Runtime Size: 1992 kB = 0.00189972 gB (After Run)
+
+Test 3
+Runtime Size: 1992 kB = 0.00189972 gB (Before run)
+Testcase not found... 
+Runtime Size: 1992 kB = 0.00189972 gB (After Run)
+
+Test 4
+Runtime Size: 1992 kB = 0.00189972 gB (Before run)
+Testcase not found... 
+Runtime Size: 1992 kB = 0.00189972 gB (After Run)
+
+Test 5
+Runtime Size: 1992 kB = 0.00189972 gB (Before run)
+Testcase not found... 
+Runtime Size: 1992 kB = 0.00189972 gB (After Run)
+
+Test 6
+Runtime Size: 1992 kB = 0.00189972 gB (Before run)
+"/home/yarne/masterThesis2/test/hybrid-HE-framework/YARNE"
+Runtime Size: 1992 kB = 0.00189972 gB ()
+Runtime Size: 1992 kB = 0.00189972 gB (After Run)
+
+Runtime Size: 1992 kB = 0.00189972 gB (End main)

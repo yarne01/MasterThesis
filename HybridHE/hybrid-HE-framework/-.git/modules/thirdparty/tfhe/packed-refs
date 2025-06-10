@@ -1,0 +1,18 @@
+# pack-refs with: peeled fully-peeled sorted 
+a146074933667aa8aa7f4a9e35ee32228527bfa9 refs/remotes/origin/165_noise_param_ambiguity
+fc49c381ef9cc30a0c309fc3fd0e9edea1941da4 refs/remotes/origin/95-public-key
+a65271bc8f5f0015c71351ed8746dd8eec051e29 refs/remotes/origin/96_multi_thread
+d0b99e8174c11e4d5bf6b1ab2269897d945bf9da refs/remotes/origin/benchmark
+5993917718d1661761648459025b0d175923929d refs/remotes/origin/experimental/spqlios-lib-processor
+ab6033c9a0c475194a2fce3d4fd222d2b63a7643 refs/remotes/origin/gh-pages
+d1a6a0029f7ef5dff9630a9306f77c4e1d3ba05c refs/remotes/origin/logos-layout-bottom
+bc71bfae7ad9d5f8ce5f29bdfd691189bfe207f3 refs/remotes/origin/master
+1bedf3803293883f7f0ada25becc46faf1f934bc refs/remotes/origin/new_params_tests
+2f79c6a5cdc261e67de00f5f4c52f8ebeed2c36b refs/remotes/origin/open-source-community-info
+fc49c381ef9cc30a0c309fc3fd0e9edea1941da4 refs/remotes/origin/public_key
+61b2422d7b9371ce3fb093e119e93c897e713547 refs/remotes/origin/tfhe-v2-master
+0bdddeb3f5e3bb1ee77159edc18533a83e7a496a refs/remotes/origin/torus_generic
+b67a33a2fa66946943d666d271f22b41c10cb115 refs/tags/v1.0
+ef02b7a198fa9c45248100ff64d0584605cbdc3e refs/tags/v1.0-rc1
+bf83dfaf8aadfa92143f62b7b7b441b5fd5d4bf0 refs/tags/v1.0-rc2
+6297bc72d9294e6e635738deb2e8dc7e4ff8bc61 refs/tags/v1.0.1

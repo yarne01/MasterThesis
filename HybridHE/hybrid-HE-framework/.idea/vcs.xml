@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/thirdparty/HElib" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/thirdparty/SEAL" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/thirdparty/SEAL/build/thirdparty/msgsl-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/thirdparty/SEAL/build/thirdparty/zlib-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/thirdparty/SEAL/build/thirdparty/zstd-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/thirdparty/m4ri" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/thirdparty/tfhe" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/thirdparty/tfhe/src/test/googletest" vcs="Git" />
+  </component>
+</project>

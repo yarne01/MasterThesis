@@ -1,0 +1,23 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://github.com/IAIK/hybrid-HE-framework
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[submodule "thirdparty/HElib"]
+	active = true
+	url = https://github.com/homenc/HElib
+[submodule "thirdparty/SEAL"]
+	active = true
+	url = https://github.com/microsoft/SEAL
+[submodule "thirdparty/m4ri"]
+	active = true
+	url = https://github.com/malb/m4ri
+[submodule "thirdparty/tfhe"]
+	active = true
+	url = https://github.com/tfhe/tfhe
